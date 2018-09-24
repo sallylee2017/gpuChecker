@@ -46,6 +46,6 @@ if __name__ == "__main__":
         return '[*] Server: gpu%s, Available gpus (ID): %s' % (server, res)
 
 
-    with futures.ProcessPoolExecutor(max_workers=32) as pool:
+    with futures.ProcessPoolExecutor(max_workers=31) as pool:
         for avalRes in pool.map(checkGpuServer, range(1, 32)):
             print(avalRes)
