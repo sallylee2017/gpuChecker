@@ -71,3 +71,9 @@ Just using 'gpuChecker' command in the terminal, then you would get something li
 ## Uinstall
 
 ```$ sudo ./uninstall.sh```
+
+
+## TODO
+
+- [ ] Check how many gpus your are using.
+- [ ] Submit jobs automaticly when ther are gpus avilable.
