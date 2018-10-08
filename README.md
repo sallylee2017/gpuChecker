@@ -76,4 +76,4 @@ Just using 'gpuChecker' command in the terminal, then you would get something li
 ## TODO
 
 - [ ] Check how many gpus your are using.
-- [ ] Submit jobs automaticly when ther are gpus avilable.
+- [ ] Submit jobs automaticly when there are gpus avilable.
